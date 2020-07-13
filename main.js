@@ -1,6 +1,6 @@
 const api = {
     key: "2ae1a1f9d7a50ae31550e0606fdbb88b",
-    base: "https://api.openweathermap.org/data/5/"
+    base: "https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&units=metric&appid=${key}"
   }
   
   const searchbox = document.querySelector('.search-box');
